@@ -1,4 +1,3 @@
-// utils/auth.ts
 import { v4 as uuidv4 } from "uuid";
 
 export function getHeaders(token: string) {
@@ -109,4 +108,3 @@ export function getVideoHeaders(token: string, randomId: string) {
     }),
   };
 }
-
